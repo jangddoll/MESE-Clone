@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESE</title>
+
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js'></script>
+
+    <script defer src="./js/script.js"></script>
+    <script defer src="../js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- start : HEADER -->
+        <header class="header">
+            <h1 class="logo">
+                <a href="../index.html">MESE</a>
+            </h1>
+            <button type="button" class="btn_open_gnb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="header_cat">
+                <img src="../img/img_header_cat.png" alt="header_cat">
+            </div>
+            <button type="button" class="btn_close_gnb">
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <!-- NAV -->
+        <nav class="nav">
+            <div class="nav_cat">
+                <img src="../img/menu_ani02.gif" alt="nav_cat">
+            </div>
+            <div class="nav_inner">
+                <div class="lang">
+                    <a href="#" class="active">KR</a>
+                    <a href="#">EN</a>
+                </div>
+
+                <ul class="gnb">
+                    <li>
+                        <a href="#">COMPANY</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="../business/index.html">Business</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">History</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">PROJECT</a>
+                    </li>
+                    <li>
+                        <a href="#">BRAND</a>
+                    </li>
+                    <li>
+                        <a href="#">SHOP</a>
+                    </li>
+                </ul>
+
+                <div class="sns">
+                    <a href="#">
+                        <img src="../img/ico_insta.png" class="pc" alt="instagram">
+                        <img src="../img/ico_insta_m.png" class="m" alt="instagram">
+                    </a>
+
+                    <a href="#">
+                        <img src="../img/ico_youtube.png" class="pc" alt="youtube">
+                        <img src="../img/ico_youtube_m.png" class="m" alt="youtube">
+                    </a>
+
+                    <a href="#">
+                        <img src="../img/ico_twitter.png" class="pc" alt="twitter">
+                        <img src="../img/ico_twitter_m.png" class="m" alt="twitter">
+                    </a>
+                </div>
+            </div>
+            <p class="slogan">we make ideas real</p>
+        </nav>
+        <!-- end : HEADER -->
+
+        <!-- start : main -->
+        <main class="main">
+            <div class="title-box">
+                <h2 class="animation1 title" id="animation1">COMPANY HISTORY</h2>
+            </div>
+            <div class="middle-line"></div>
+            <div class="timeline">
+                <ul>
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2020</h3>
+                            <ul>
+                                <li>
+                                    한국콘텐츠진흥원 애니메이션 부트캠프,<br>
+                                    <strong>'Camem&Bert's FoodTruck'최우수상 수상</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="img">
+                            <img src="./img/2020_m1.png" class="pc" alt="2020년">
+                            <img src="./img/2020_m2.png" class="m" alt="2020년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2019</h3>
+                            <ul>
+                                <li>
+                                    홍콩 라이선싱 박람회 참가 및 중국, 유럽, <br> 홍콩 상품 수출 계약체결
+                                </li>
+                                <li>
+                                    <strong>스누피와 콜라보레이션</strong> 행사 진행
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2019_m1.png" class="pc" alt="2019년">
+                            <img src="./img/2019_m2.png" class="m" alt="2019년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2018</h3>
+                            <ul>
+                                <li>
+                                    <strong>'식빵뚱냥', '빵빵덕' 등 유명 작가들과 콜라보레이션</strong> 행사 진행
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2018_m1.png" class="pc" alt="2018년">
+                            <img src="./img/2018_m2.png" class="m" alt="2018년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2017</h3>
+                            <ul>
+                                <li>
+                                    <strong>YG엔터테인먼트와 콜라보레이션</strong> 행사 진행
+                                </li>
+                                <li>
+                                    평창 동계올림픽 수호랑, 반다비 핫팩 인형제작
+                                </li>
+                                <li>
+                                    <strong>디즈니 코리아 라이선스</strong> 체결
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2017_m1.png" class="pc" alt="2017년">
+                            <img src="./img/2017_m2.png" class="m" alt="2017년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2016</h3>
+                            <ul>
+                                <li>
+                                    <strong>라인프렌즈 쿨팩인형 라이선스</strong> 체결
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2016_m1.png" class="pc" alt="2016년">
+                            <img src="./img/2016_m2.png" class="m" alt="2016년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2015</h3>
+                            <ul>
+                                <li>
+                                    중국 상해지사 설립
+                                </li>
+                                <li>
+                                    <b>중국 상해 11개 백화점 입점</b>
+                                </li>
+                                <li>
+                                    <b>카카오프렌즈, 라인프렌즈, 스푸키즈 라이선스 체결</b>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2015_m1.png" class="pc" alt="2015년">
+                            <img src="./img/2015_m2.png" class="m" alt="2015년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2014</h3>
+                            <ul>
+                                <li>
+                                    <strong>무한도전 라이선스</strong> 체결
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2014_m1.png" class="pc" alt="2014년">
+                            <img src="./img/2004_m2.png" class="m" alt="2014년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2013</h3>
+                            <ul>
+                                <li>
+                                    기업부설연구소 인증
+                                </li>
+                                <li>
+                                    <strong>마조앤새디 라이선스 체결 </strong>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2013_m1.png" class="pc" alt="2013년">
+                            <img src="./img/2013_m2.png" class="m" alt="2013년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2012</h3>
+                            <ul>
+                                <li>
+                                    마니모 캐릭터 개발
+                                </li>
+                                <li>
+                                    핫팩인형 수출(미국, 일본, 독일, 프랑스 외)
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2012_m1.png" class="pc" alt="2012년">
+                            <img src="./img/2012_m2.png" class="m" alt="2012년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2011</h3>
+                            <ul>
+                                <li>
+                                    중국 법인 설립
+                                </li>
+                                <li>
+                                    <strong>로커스 부토 라이선스 체결</strong>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2011_m1.png" class="pc" alt="2011년">
+                            <img src="./img/2011_m2.png" class="m" alt="2011년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2010</h3>
+                            <ul>
+                                <li>
+                                    NHK도모군 라이선스 체결
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2010_m1.png" class="pc" alt="2010년">
+                            <img src="./img/2010_m2.png" class="m" alt="2010년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2009</h3>
+                            <ul>
+                                <li>
+                                    우수벤처기업인증
+                                </li>
+                                <li>
+                                    Tokyo Gift Show 핫팩인형<br>
+                                    최우수 아이디어 상품 선정
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2009_m1.png" class="pc" alt="2009년">
+                            <img src="./img/2009_m2.png" class="m" alt="2009년">
+                        </div>
+
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2006</h3>
+                            <ul>
+                                <li>
+                                    <b>독일 Tazzeta사와 한국독점계약진행</b>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2006_m1.png" class="pc" alt="2006년">
+                            <img src="./img/2006_m2.png" class="m" alt="2006년">
+                        </div>
+                    </li>
+
+                    <li class="animation2 box">
+                        <div class="text">
+                            <h3>2004</h3>
+                            <ul>
+                                <li>
+                                    회사 설립
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="img">
+                            <img src="./img/2004_m1.png" class="pc" alt="2004년">
+                            <img src="./img/2004_m2.png" class="m" alt="2004년">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <!-- end : SECTION -->
+
+
+</body>
+
+</html>

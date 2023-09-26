@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESE</title>
+
+    <!-- gsap -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ScrollMagic -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
+
+    <script defer src="./js/script.js"></script>
+    <script defer src="../js/script.js"></script>
+
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- start : HEADER -->
+        <header class="header">
+            <h1 class="logo">
+                <a href="../index.html">MESE</a>
+            </h1>
+            <button type="button" class="btn_open_gnb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="header_cat">
+                <img src="../img/img_header_cat.png" alt="header_cat">
+            </div>
+            <button type="button" class="btn_close_gnb">
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <!-- NAV -->
+        <nav class="nav">
+            <div class="nav_cat">
+                <img src="../img/menu_ani02.gif" alt="nav_cat">
+            </div>
+            <div class="nav_inner">
+                <div class="lang">
+                    <a href="#" class="active">KR</a>
+                    <a href="#">EN</a>
+                </div>
+
+                <ul class="gnb">
+                    <li>
+                        <a href="#">COMPANY</a>
+                        <ul class="sub-menu">
+                            <li class="active">
+                                <a href="#">Business</a>
+                            </li>
+                            <li>
+                                <a href="../history/index.html">History</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">PROJECT</a>
+                    </li>
+                    <li>
+                        <a href="#">BRAND</a>
+                    </li>
+                    <li>
+                        <a href="#">SHOP</a>
+                    </li>
+                </ul>
+
+                <div class="sns">
+                    <a href="#">
+                        <img src="../img/ico_insta.png" class="pc" alt="instagram">
+                        <img src="../img/ico_insta_m.png" class="m" alt="instagram">
+                    </a>
+
+                    <a href="#">
+                        <img src="../img/ico_youtube.png" class="pc" alt="youtube">
+                        <img src="../img/ico_youtube_m.png" class="m" alt="youtube">
+                    </a>
+
+                    <a href="#">
+                        <img src="../img/ico_twitter.png" class="pc" alt="twitter">
+                        <img src="../img/ico_twitter_m.png" class="m" alt="twitter">
+                    </a>
+                </div>
+            </div>
+            <p class="slogan">we make ideas real</p>
+        </nav>
+        <!-- end : HEADER -->
+
+        <main class="main">
+            <section class="title-box">
+                <div class="inner">
+                    <h2 class="title fade-in">BUSINESS</h2>
+                    <p class="slogan fade-in">We make <br> ideas real</p>
+                    <div class="text fade-in">
+                        <p class="desc1">
+                            (주)메세는 ‘모찌타운’을 비롯한<br>
+                            여러 원천 IP 캐릭터 상품을 개발하여<br>
+                            생산·판매하고 있습니다.<br>
+                        </p>
+                        <p class="desc2">
+                            또한 우수한 인형 제작 기술과 특허 받은 독창적인 인형 구동 기술로<br>
+                            퍼펫쇼와 2D·3D·스톱모션을 융합한 새로운 방식의 영상을 제작하고 있습니다.<br>
+                            메세몰과 국내 100여 개, 중국 50여 개의 온·오프라인 유통 채널을<br>
+                            통해서 (주)메세를 만나보세요.
+                        </p>
+                    </div>
+                    <img src="./img/biz_c_01_01.png" class="pc cat-img fade-in" alt="고양이">
+                    <img src="./img/biz_c_01_m.png" class="m cat-img fade-in" alt="고양이">
+                    <img src="./img/biz_c_03_01.png" class="dot-img fade-in" alt="원">
+                </div>
+            </section>
+
+            <!-- BOTTOM -->
+            <section class="content-box">
+                <div class="inner">
+                    <div class="center fade-in">
+                        <img src="./img/img_business01.png" class="pc center-img animation" alt="center">
+                        <img src="./img/img_business01_m.png" class="m center-img animation" alt="center">
+                    </div>
+                    <ul class="teams">
+                        <li class="team01 fade-in">
+                            <dl>
+                                <dt>개발기획본부</dt>
+                                <dd>상품기획팀</dd>
+                                <dd>교육사업팀</dd>
+                            </dl>
+                        </li>
+                        <li class="team02 fade-in">
+                            <dl>
+                                <dt>경영본부</dt>
+                                <dd>회계팀</dd>
+                                <dd>인사팀</dd>
+                            </dl>
+                        </li>
+                        <li class="team03 fade-in">
+                            <dl>
+                                <dt>미디어본부</dt>
+                                <dd>기획팀</dd>
+                                <dd>영상팀</dd>
+                            </dl>
+                        </li>
+                        <li class="team04 fade-in">
+                            <dt>중국 현지법인</dt>
+                        </li>
+                        <li class="team05 fade-in">
+                            <dl>
+                                <dt>판매전략본부</dt>
+                                <dd>마케팅팀</dd>
+                                <dd>영업팀</dd>
+                                <dd>라이선스팀</dd>
+                            </dl>
+                        </li>
+                        <li class="team06 fade-in">
+                            <dl>
+                                <dt>생산본부</dt>
+                                <dd>제조팀</dd>
+                                <dd>생산관리팀</dd>
+                                <dd>물류팀</dd>
+                            </dl>
+                        </li>
+                        <li class="team07 fade-in">
+                            <dl>
+                                <dt>디자인본부</dt>
+                                <dd>캐릭터디자인팀</dd>
+                                <dd>상품디자인팀</dd>
+                                <dd>웹디자인팀</dd>
+                            </dl>
+                        </li>
+                        <li class="team08 fade-in">
+                            <dl>
+                                <dt>기술본부</dt>
+                                <dd>페펫기술팀</dd>
+                                <dd>상품기술팀</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <img src="./img/biz_c_02.png" alt="꽃" class="flower-img fade-in">
+                    <img src="./img/biz_c_04_1.png" alt="나뭇잎" class="leaf-img fade-in">
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
