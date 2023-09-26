@@ -106,7 +106,7 @@ main .content-box{
     justify-content: space-between;
 }
 .content-box .inner .teams li{
-    width: 13.5rem;
+    width: 48%;
     height: 13.5rem;
     border-radius: 50%;
     border-width: 0.16rem;
