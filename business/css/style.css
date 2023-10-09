@@ -105,7 +105,7 @@ main .content-box{
     flex-flow: row wrap;
     justify-content: space-between;
 }
-.content-box .inner .teams li{
+.content-box .inner .teams .team{
     width: 48%;
     height: 13.5rem;
     border-radius: 50%;
@@ -117,14 +117,15 @@ main .content-box{
     text-align: center;
     margin-top: 0.6rem;
 }
-.content-box .inner .teams li dt{
+.content-box .inner .teams .team .team-name{
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.content-box .inner .teams li dd{
+.content-box .inner .teams .team li{
     font-size: 1.2rem;
 }
+
 /* end : CONTENT-BOX */
 
 /* team01 */
@@ -132,7 +133,7 @@ main .content-box{
     border-color: #f44336;
     transition: all 0.8s ease 0.2s;
 }
-.team01 dt{
+.team01 .team-name{
     color: #f44336;
 }
 
@@ -141,7 +142,7 @@ main .content-box{
     border-color: #ff9800;
     transition: all 0.8s ease 0.3s;
 }
-.team02 dt{
+.team02 .team-name{
     color: #ff9800;
 }
 
@@ -150,7 +151,7 @@ main .content-box{
     border-color: #f7d318;
     transition: all 0.8s ease 0.4s;
 }
-.team03 dt{
+.team03 .team-name{
     color: #f7d318;
 }
 
@@ -159,7 +160,7 @@ main .content-box{
     border-color: #b5c517;
     transition: all 0.8s ease 0.5s;
 }
-.team04 dt{
+.team04 .team-name{
     color: #b5c517;
 }
 
@@ -168,7 +169,7 @@ main .content-box{
     border-color: #0c9688;
     transition: all 0.8s ease 0.6s;
 }
-.team05 dt{
+.team05 .team-name{
     color: #0c9688;
 }
 
@@ -177,7 +178,7 @@ main .content-box{
     border-color: #2196f3;
     transition: all 0.8s ease 0.7s;
 }
-.team06 dt{
+.team06 .team-name{
     color: #2196f3;
 }
 
@@ -186,7 +187,7 @@ main .content-box{
     border-color: #3f51b5;
     transition: all 0.8s ease 0.8s;
 }
-.team07 dt{
+.team07 .team-name{
     color: #3f51b5;
 }
 
@@ -195,7 +196,7 @@ main .content-box{
     border-color: #673ab7;
     transition: all 0.8s ease 0.9s;
 }
-.team08 dt{
+.team08 .team-name{
     color: #673ab7;
 }
 
@@ -271,18 +272,18 @@ main .content-box{
     .content-box .inner .center{
         width: auto;
     }
-    .content-box .inner .teams li{
+    .content-box .inner .teams .team{
         width: 24rem;
         height: 24rem;
         margin-top: 0;
         position: absolute;
         border-width: 0.6rem;
     }
-    .content-box .inner .teams li dt{
+    .content-box .inner .teams .team .team-name{
         margin-bottom: 1.5rem;
         font-size: 2.4rem;
     }
-    .content-box .inner .teams li dd{
+    .content-box .inner .teams .team li{
         font-size: 1.8rem;
     }
     .content-box .inner .teams .team01{
